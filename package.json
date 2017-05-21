@@ -4,12 +4,15 @@
   "description": "Get next available port number.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
     "url": "git+https://yiwenl@github.com/yiwenl/get-next-port.git"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "get",
     "port",
@@ -24,5 +27,9 @@
   "homepage": "https://github.com/yiwenl/get-next-port#readme",
   "dependencies": {
     "get-port": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
   }
 }
