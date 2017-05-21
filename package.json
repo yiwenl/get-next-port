@@ -1,6 +1,6 @@
 {
   "name": "get-next-port",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get next available port number.",
   "main": "index.js",
   "scripts": {
