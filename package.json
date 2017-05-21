@@ -1,0 +1,28 @@
+{
+  "name": "get-next-port",
+  "version": "1.0.0",
+  "description": "Get next available port number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yiwenl@github.com/yiwenl/get-next-port.git"
+  },
+  "keywords": [
+    "get",
+    "port",
+    "next",
+    "available"
+  ],
+  "author": "Yi-Wen Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiwenl/get-next-port/issues"
+  },
+  "homepage": "https://github.com/yiwenl/get-next-port#readme",
+  "dependencies": {
+    "get-port": "^3.1.0"
+  }
+}
