@@ -1,4 +1,4 @@
-# get-next-port
+# get-next-port [![Build Status](https://travis-ci.org/yiwenl/get-next-port.svg?branch=master)](https://travis-ci.org/yiwenl/get-next-port)
 
 Get next available port.
 
