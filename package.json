@@ -4,7 +4,8 @@
   "description": "Get next available port number.",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "test:ci": "node ./tasks/ci.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "ava": "*",
+    "fs-extra": "^4.0.1",
     "xo": "*"
   }
 }
